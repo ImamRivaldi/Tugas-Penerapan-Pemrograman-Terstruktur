@@ -118,5 +118,5 @@ void fungsi(){
 }
 
 int main(){
-	
+	fungsi();
 }
