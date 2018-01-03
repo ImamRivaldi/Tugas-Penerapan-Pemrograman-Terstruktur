@@ -88,6 +88,12 @@ void fungsi(){
 	for(i=0; i<5; i++){
 		cout << Ra3[i] <<" | ";
 	} cout<<endl;
+		
+	cout << endl;
+	cout << "BOBOT W :"<<endl;	
+	for(i=0; i<5; i++){
+		cout << w[i] <<" | ";
+	} cout<<endl;
 }
 
 int main(){
