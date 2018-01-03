@@ -45,4 +45,10 @@ int main(){
 			cout<<Ra[i][j]<<" | ";
 		}cout<<endl;
 	}
+	
+	cout<<endl<<"BOBOT W : "<<endl;
+	double w[5]={5,3,4,4,2};
+	for(int i=0;i<5;i++){
+	cout<<w[i]<<" | ";
+	}cout<<endl;
 }
