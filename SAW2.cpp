@@ -31,6 +31,17 @@ void fungsi(){
 	for(i=0; i<5; i++){
 			m[i]=max(a1[i],max(a2[i],a3[i]));
 	}
+	
+	// BUAT MATRIKS R
+	for(i=0; i<5; i++){
+		Ra1[i] = (a1[i]/m[i]);
+	}
+	for(i=0; i<5; i++){
+		Ra2[i] = (a2[i]/m[i]);
+	}
+	for(i=0; i<5; i++){
+		Ra3[i] = (a3[i]/m[i]);
+	}
 }
 
 int main(){
