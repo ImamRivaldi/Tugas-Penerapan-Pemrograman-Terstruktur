@@ -53,6 +53,13 @@ void fungsi(){
 	for(i=0; i<5; i++){
 		RWa3[i] = Ra3[i]*w[i];
 	}
+	
+	// PENJUMLAHAN HASIL R * W	
+	for(i=0; i<1; i++){
+		ha[i]=RWa1[i]+RWa1[i+1]+RWa1[i+2]+RWa1[i+3]+RWa1[i+4];
+		ha[i+1]=RWa2[i]+RWa2[i+1]+RWa2[i+2]+RWa2[i+3]+RWa2[i+4];
+		ha[i+2]=RWa3[i]+RWa3[i+1]+RWa3[i+2]+RWa3[i+3]+RWa3[i+4];
+	}
 }
 
 int main(){
