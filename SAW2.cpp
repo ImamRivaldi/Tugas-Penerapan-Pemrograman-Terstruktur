@@ -66,13 +66,27 @@ void fungsi(){
 	for(i=0; i<5; i++){
 		cout << a1[i] <<" | ";
 	} cout<<endl;
-	
+
 	for(i=0; i<5; i++){
 		cout << a2[i] <<" | ";
 	} cout<<endl;
 	
 	for(i=0; i<5; i++){
 		cout << a3[i] <<" | ";
+	} cout<<endl;
+	
+	cout << endl;
+	cout << "MATRIKS R :"<<endl;
+	for(i=0; i<5; i++){
+		cout << Ra1[i] <<" | ";
+	} cout<<endl;
+	
+	for(i=0; i<5; i++){
+		cout << Ra2[i] <<" | ";
+	} cout<<endl;
+	
+	for(i=0; i<5; i++){
+		cout << Ra3[i] <<" | ";
 	} cout<<endl;
 }
 
