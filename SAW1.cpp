@@ -21,4 +21,9 @@ int main(){
 	double ha[3];
 	
 	int i;
+	
+	// SETTING PRESISI DESIMAL
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(4);
 }
