@@ -94,6 +94,20 @@ void fungsi(){
 	for(i=0; i<5; i++){
 		cout << w[i] <<" | ";
 	} cout<<endl;
+	
+	cout << endl;
+	cout << "MATRIKS R * W :"<<endl;
+	for(i=0; i<5; i++){
+		cout << RWa1[i] <<" | ";
+	} cout<<endl;
+	
+	for(i=0; i<5; i++){
+		cout << RWa2[i] <<" | ";
+	} cout<<endl;
+	
+	for(i=0; i<5; i++){
+		cout << RWa3[i] <<" | ";
+	} cout<<endl;
 }
 
 int main(){
