@@ -102,4 +102,11 @@ int main(){
 	for(i=0; i<5; i++){
 		cout << RWa3[i] <<" | ";
 	} cout<<endl;
+	
+	cout << endl;
+	cout << "HASIL AKHIR  :"<<endl;
+	
+	for(i=0; i<3; i++){
+		cout << "Nilai A"<<i+1<<"  : "<<ha[i]<<endl;
+	} cout<<endl;
 }
