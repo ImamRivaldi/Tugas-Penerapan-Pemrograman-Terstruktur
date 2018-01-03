@@ -42,6 +42,17 @@ void fungsi(){
 	for(i=0; i<5; i++){
 		Ra3[i] = (a3[i]/m[i]);
 	}
+	
+	// MATRIKS R * W
+	for(i=0; i<5; i++){
+		RWa1[i] = Ra1[i]*w[i];
+	}
+	for(i=0; i<5; i++){
+		RWa2[i] = Ra2[i]*w[i];
+	}
+	for(i=0; i<5; i++){
+		RWa3[i] = Ra3[i]*w[i];
+	}
 }
 
 int main(){
