@@ -60,4 +60,18 @@ int main(){
 		ha[i+1]=RWa2[i]+RWa2[i+1]+RWa2[i+2]+RWa2[i+3]+RWa2[i+4];
 		ha[i+2]=RWa3[i]+RWa3[i+1]+RWa3[i+2]+RWa3[i+3]+RWa3[i+4];
 	}
+	
+	// MENAMPILKAN NILAI
+	cout << "MATRIKS X :"<<endl;
+	for(i=0; i<5; i++){
+		cout << a1[i] <<" | ";
+	} cout<<endl;
+	
+	for(i=0; i<5; i++){
+		cout << a2[i] <<" | ";
+	} cout<<endl;
+	
+	for(i=0; i<5; i++){
+		cout << a3[i] <<" | ";
+	} cout<<endl;
 }
